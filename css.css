@@ -1,5 +1,11 @@
+html {
+	height: 100%;
+}
+
 body {
 	height:  100%;
+	margin:  0;
+	background-repeat: no-repeat;
 	background-image: linear-gradient(to bottom right, lightcoral, mediumpurple);
 	font-family: 'Klee One', cursive;
 }
@@ -20,7 +26,7 @@ body {
 
 .grid-container {
 	display:  grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% 50%;
 }
 
 .grid-item {
@@ -29,17 +35,51 @@ body {
 	text-align: center;
 }
 
+.work {
+	font-size: 20px;
+}
+
 .hide {
 	display:  none;
 }
 
 .work:hover + p {
 	display:  block;
-	color:  white;
+	color:  #d9fae2;
 	text-align: center;
+}
+
+.footer {
+	position: absolute;
+	bottom:  0;
+	right: 0;
 }
 
 .established{
 	text-align: right;
 	font-size: 14px;
+}
+
+/*.arei {
+	background-image: url('./images/crec-logo.jpeg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	height: 150px;
+	/*background-size: cover;
+}*/
+
+.about {
+	margin-top:  60px;
+}
+
+.learning {
+	margin-top: 60px;
+}
+
+.projects {
+	margin-top: 60px;
+}
+
+.work-history {
+	margin-top: 60px;
 }
