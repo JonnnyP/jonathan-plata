@@ -1,0 +1,25 @@
+body {
+	/*background-color: lightcoral;*/
+	height:  100%;
+	background-image: linear-gradient(to bottom right, lightcoral, mediumpurple);
+	font-family: 'Klee One', cursive;
+}
+
+.name {
+	padding: 2px;
+	margin:  0px;
+}
+
+.grid-container {
+	display:  grid;
+	grid-template-columns: auto auto;
+}
+
+.grid-item {
+	padding:  20px;
+}
+
+.established{
+	text-align: right;
+	font-size: 14px;
+}
