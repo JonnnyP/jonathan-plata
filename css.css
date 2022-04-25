@@ -1,5 +1,4 @@
 body {
-	/*background-color: lightcoral;*/
 	height:  100%;
 	background-image: linear-gradient(to bottom right, lightcoral, mediumpurple);
 	font-family: 'Klee One', cursive;
@@ -10,13 +9,34 @@ body {
 	margin:  0px;
 }
 
+.mini-header {
+	font-size: 24px;
+	margin:  5px;
+}
+
+.about-me {
+	margin:  12px;
+}
+
 .grid-container {
 	display:  grid;
 	grid-template-columns: auto auto;
 }
 
 .grid-item {
+	/*border: solid 8px;*/
 	padding:  20px;
+	text-align: center;
+}
+
+.hide {
+	display:  none;
+}
+
+.work:hover + p {
+	display:  block;
+	color:  white;
+	text-align: center;
 }
 
 .established{
