@@ -1,5 +1,6 @@
 html {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -8,6 +9,8 @@ body {
 	background-repeat: no-repeat;
 	background-image: linear-gradient(to bottom right, lightcoral, mediumpurple);
 	font-family: 'Klee One', cursive;
+	overflow-x: hidden;
+
 }
 
 .name {
